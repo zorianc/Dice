@@ -5,9 +5,8 @@ Do this project with your paired programming team partner. You may want to assig
 
 In this project we'll practice using OOP (Object Oriented Programming) techniques. We'll create a `class` to model what a single die has and does, and then we will create at least 9 *instances* of that class arranged in a grid shape. Note that for full credit your program must display the total of all the dice and draw the dice with dots or similar marks. Also, you must customize the title, header and footer of `index.html`. Prerequisites for the Dice project are:
 
-* First 88 slides of the [Unit 4 & 5 Loops and Objects Assignment](https://classroom.google.com/c/MTI2MDgzMTM2MDgw/a/MTgzMDM1MDA0Njg4/details)
-*  [Nested Loops Worksheet Assignment](https://classroom.google.com/c/MTI2MDgzMTM2MDgw/a/MTgyOTYzNDgwMDM0/details), and the [Math.random](https://drive.google.com/file/d/0Bz2ZkT6qWPYTSU84X3FSOGYwdFU/view?usp=sharing)
-* Slides 38 to 86 of the [Units 1 2 and 3] which you have already completed in full!
+* Slides 51-73 of the [Unit 4 & 5 Loops and Objects Assignment](https://docs.google.com/presentation/d/1HC_K5tqfny5QYTdENnDpsQO-nGAAWua_YOQRc18V2IU/edit#slide=id.g9e087dd4d3_0_2)
+* Slides 38 to 86 of the [Units 1 2 and 3](https://classroom.google.com/c/NTQ1NzY1MjYwMzc0/a/NDkwODYyNjUwNzQ3/details) which you should have already completed in full!
 
 You will find that completing the above helpful for success on this project.
 
