@@ -32,3 +32,54 @@ void mousePressed()
   redraw();
 }
 
+class Die
+{
+  private int num;
+  private int x;
+  private int y;
+  private int size;
+  private int cSize;
+
+  Die(int x, int y, int size)
+  {
+    this.x = x;
+    this.y = y;
+    this.size = size;
+    this.cSize = size/4;
+  }
+  void roll()
+  {
+
+    this.num = (int) ((Math.random() * 6) + 1);
+  }
+  void show()
+  {
+    fill(255);
+    rectMode(CENTER);
+    rect(x, y, size, size, size/10);
+    fill(5);
+    if (num % 2 == 1)
+    {
+      ellipse(x, y, cSize, cSize);
+    }
+    if (num != 1)
+    {
+      ellipse(x - cSize, y - cSize, cSize, cSize);
+      ellipse(x + cSize, y + cSize, cSize, cSize);
+    }
+    if (num >= 4)
+    {
+      ellipse(x + cSize, y - cSize, cSize, cSize);
+      ellipse(x - cSize, y + cSize, cSize, cSize);
+    }
+    if (num == 6)
+    {
+      ellipse(x - cSize, y, cSize, cSize);
+      ellipse(x + cSize, y, cSize, cSize);
+    }
+  }
+  int getVal()
+  {
+    return this.num;
+  }
+}
